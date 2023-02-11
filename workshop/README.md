@@ -16,6 +16,7 @@ If we wanted to make a new image where all the red colouring has been removed, w
 ```js
 const imgNoRed = [0, 0.8, 0.7, 0.25, 0, 0.9, 0.14, 0.5]
 ```
+
 (Notice that the red part of each pixel is now 0.)
 
 In this workshop you will be working with arrays like these to create different visual effects. Once you're done, we can have a go at doing this for real with the HTML canvas.

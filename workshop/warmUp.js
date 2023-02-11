@@ -20,7 +20,7 @@ function addPairs (arr) {
 }
 
 /**
- * Write a function which goes through the array and multiplies together each group of three entries.
+ * Write a function which goes through the given array and multiplies together each group of three entries.
  * Return the sum of all the multiples you calculated.
  * 
  * e.g. ([2, 4, 5, 7, 1, 6]) => 2*4*5 + 7*1*6 = 40 + 42 = 82
