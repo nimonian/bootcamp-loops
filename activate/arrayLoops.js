@@ -23,9 +23,9 @@ function countEvens(arr) {
 }
 
 /**
- * Write a function which returns a new array where each number has been multiplied by its index position,
- * e.g. ([1, 4, 6]) => [0, 4, 12]
+ * Write a function which returns the first word in the given array whose length is larger than 5 characters
+ * e.g. (['a', 'truly', 'interesting', 'question']) => 'interesting'
  */
-function filterEvens(arr) {
+function longWord (words) {
   // code here
 }

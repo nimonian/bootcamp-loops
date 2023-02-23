@@ -2,13 +2,7 @@
  * Adds up all the numbers from 1 to n and returns the answer
  */
 function addNums(n) {
-  let answer = 0
-
-  for (let i = 1; i <= n; i += 1) {
-    answer += i
-  }
-
-  return answer
+  // code here
 }
 
 /**
@@ -26,9 +20,11 @@ function addEvens(a, b) {
 }
 
 /**
- * Write a function that creates a string with the numbers from 1 to n concatenated,
+ * Write a function that returns a string with the numbers from 1 to n concatenated,
  * e.g. (10) => '12345678910'
  */
 function numberString(n) {
   // code here
 }
+
+module.exports = { addNums }

@@ -16,11 +16,7 @@ The lines
 const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height)
 const arr = imageData.data
 ```
-obtain an array of pixels. Each pixel takes up 4 positions in the array with its RGBA data. So
-```js
-arr.slice(0,4)
-```
-is the RGBA of the first pixel in the image, and so on.
+obtain an array of pixels and saves it as `arr`. Each pixel takes up 4 positions in the array with its RGBA data. So the first four entries is the RGBA of the first pixel in the image, and so on.
 
 By altering the data and writing back to the canvas we can mess about with the image.
 
