@@ -27,4 +27,9 @@ function numberString(n) {
   // code here
 }
 
-module.exports = { addNums }
+module.exports = {
+  addNums,
+  addNums2,
+  addEvens,
+  numberString
+}
