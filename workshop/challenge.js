@@ -49,3 +49,12 @@ function adjustAlpha(img, multiplier) {
 function grayScale(img) {
   // code here
 }
+
+module.exports = {
+  stripRed,
+  stripGreen,
+  stripBlue,
+  invert,
+  adjustAlpha,
+  grayScale
+}
