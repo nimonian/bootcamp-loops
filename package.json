@@ -1,3 +1,12 @@
 {
-  "title": "Loops"
+  "title": "Loops",
+  "name": "bootcamp-loops",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"cd into a folder first\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

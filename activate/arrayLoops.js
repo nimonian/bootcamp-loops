@@ -23,9 +23,17 @@ function countEvens(arr) {
 }
 
 /**
- * Write a function which returns the first word in the given array whose length is larger than 5 characters
+ * Write a function which returns the longest word in the array
+ * (You are guaranteed there is one longest word)
  * e.g. (['a', 'truly', 'interesting', 'question']) => 'interesting'
  */
-function longWord (words) {
+function longestWord (words) {
   // code here
+}
+
+module.exports = {
+  addArray,
+  addEvens,
+  countEvens,
+  longestWord
 }

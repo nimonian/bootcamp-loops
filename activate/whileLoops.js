@@ -29,7 +29,15 @@ function sumLimit (limit) {
  * Write a function which repeats the given string as many times as possible
  * without exceeding the given limit.
  * e.g. ('abc', 10) => 'abcabcabc'
+ * Note: str.length will give you the length of str
  */
 function repeatLimit (str, limit) {
   // code here
+}
+
+module.exports = {
+  powerOf2,
+  squareLimit,
+  sumLimit,
+  repeatLimit
 }
